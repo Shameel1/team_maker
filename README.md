@@ -8,6 +8,6 @@ This file contains the names of players playing. Player names must be found in t
 This code forms all possible teams given the names in the *player.csv* file. It then computes a score difference between opposing teams. 
 The score is computed based on the average difference in total skills for each category. That is:
 
-![](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{categories}{\left|\sum_{players}{category_A}-\sum{category_B}\right|})
+![](https://latex.codecogs.com/svg.latex?\Large&space;score=\sum_{categories}{\left|\sum_{players}{category_A}-\sum{category_B}\right|})
 
 The teams are then sorted based on this score. The teams with the least difference is then selected and printed.
